@@ -23,12 +23,12 @@ script:
 - docker tag udagram-reverseproxy chesty07/udagram-reverseproxy:v1a
 - docker tag udagram-api-feed chesty07/udagram-api-feed:v1a
 - docker tag udagram-api-user chesty07/udagram-api-user:v1a
-- docker tag udagram-frontend chesty07/udagram-frontend:local
+- docker tag udagram-frontend chesty07/udagram-frontend:v1a
 # Tasks to perform after the process is successful.
 after_success:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push chesty07/udagram-reverseproxy:v1a
 - docker push chesty07/udagram-api-feed:v1a
 - docker push chesty07/udagram-api-user:v1a
-- docker push chesty07/udagram-frontend:local
+- docker push chesty07/udagram-frontend:v1a
 
