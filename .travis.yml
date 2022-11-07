@@ -32,3 +32,4 @@ after_success:
 - docker push chesty07/udagram-api-user:v2a
 - docker push chesty07/udagram-frontend:v2a
 
+
