@@ -6,7 +6,7 @@ data:
   AWS_REGION: us-east-1
   JWT_SECRET: testing
   POSTGRESS_DB: cdrinitial
-  POSTGRESS_HOST: my-118784892284udagramuserimage-bucket
+  POSTGRESS_HOST: cdr2.cdky1o1y4okk.us-east-1.rds.amazonaws.com
   URL: http://localhost:8100 
 metadata:
   name: env-config
