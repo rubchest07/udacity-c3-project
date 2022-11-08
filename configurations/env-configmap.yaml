@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: my-118784892284udagramuserimage-bucket
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRESS_DB: cdrinitial
+  POSTGRESS_HOST: my-118784892284udagramuserimage-bucket
+  URL: http://localhost:8100 
+metadata:
+  name: env-config
